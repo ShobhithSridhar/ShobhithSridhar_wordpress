@@ -8,3 +8,19 @@ Version: 1.0
 */
 
 @import url(../twentysixteen/style.css);
+
+.site-branding .site-title a{
+	color: #d60c0c;
+}
+
+.site-branding .site-title a:hover {
+	color: gray;
+}
+
+.site-description {
+    font-size: 1.2rem;
+}
+
+.site {
+	background-color: orange;
+}
