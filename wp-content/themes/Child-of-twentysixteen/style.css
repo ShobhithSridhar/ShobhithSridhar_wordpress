@@ -8,6 +8,8 @@ Version: 1.0
 */
 
 @import url(../twentysixteen/style.css);
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+/*font-family: 'Pacifico', cursive; */
 
 .site-branding .site-title a{
 	color: #d60c0c;
@@ -22,5 +24,38 @@ Version: 1.0
 }
 
 .site {
-	background-color: orange;
+	background-color: gray;
+}
+
+.entry-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.widget .widget-title {
+	font-family: 'Pacifico', cursive;
+	font-size: 1.5rem;
+	text-transform: none;
+}
+.main-navigation a {
+	color: #101bb1;
+}
+
+.main-navigation a:hover, .main-navigation a:focus {
+	color: #cc0000;
+}
+
+@media screen and (min-width: 56.875em) {
+	.widget .widget-title {
+		font-size: 1rem;
+	}
+}
+
+.sticky-post::before{
+	background-color: chartreuse;
+	content: "Featured Content";
+	display: block;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 80%;
+	padding: 1em;
 }
